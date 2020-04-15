@@ -2,10 +2,10 @@
 
 def game_hash
   base_hash = {
-    :home => {
-      :team_name => "",
-      :colors => [],
-      :players => [ { {
+    team_name => "Broolyn Nets",
+      :colors => ["Black", "White"],
+      :players => [
+        {
           :player_name => "Alan Anderson",
           :number => 0,
           :shoe => 16,
@@ -120,11 +120,7 @@ def game_hash
         :slam_dunks => 12
       }
      ]
-    
-    },
-    :away => {
-
     }
-
   }
+
 end
